@@ -265,21 +265,9 @@ th {
 
 /*
    Fonts:
-   font-family: 'Righteous';
    font-family: 'Comfortaa';
-   font-family: 'Chelsea Market';
-   font-family: 'Prosto One';
-   font-family: 'Poller One';
    font-family: 'Kranky';
-   font-family: 'Life Savers';
-   font-family: 'Flamenco';
-   font-family: 'Rammetto One';
-   font-family: 'Snowburst One';
-   font-family: 'Glass Antiqua';
-   font-family: 'Aubrey';
-   font-family: 'Goblin One';
-   font-family: 'Macondo Swash Caps';
-   font-family: 'Diplomata SC';
+   font-family: 'Lobster';
  */
 
 body {
@@ -327,7 +315,7 @@ h3 {
 }
 
 .post h2 {
-  color: #ff7049;
+  color: #168624;
   font-size: 40px;
 }
 
@@ -744,16 +732,26 @@ object {
 
 /*--------------------------------------------------------------
    # Theme-Specific Styles
-   --------------------------------------------------------------*//*
+   --------------------------------------------------------------*/
+/*
    Colors:
-   light green: 6EE264;
-   lotus: FF7049 255,112,73;
+   light green: c9c9c9;
+   lotus: 168624 255,112,73;
 
  */
 
 
 body {
-  background: url('/wp-content/themes/tracys_backpack/assets/img/green_bark2.png') repeat;
+  background:
+  /*url('/wp-content/themes/tracys_backpack/assets/img/bgs/bamboo.gif')*/
+  /*url('/wp-content/themes/tracys_backpack/assets/img/bgs/chess-dark.gif')
+     url('/wp-content/themes/tracys_backpack/assets/img/bgs/coaster.gif')
+     url('/wp-content/themes/tracys_backpack/assets/img/bgs/intrigue.gif')
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/relic-jungle.gif')/*
+     url('/wp-content/themes/tracys_backpack/assets/img/bgs/retro-leaves.gif')
+     url('/wp-content/themes/tracys_backpack/assets/img/bgs/trees.png')
+  url('/wp-content/themes/tracys_backpack/assets/img/green_bark.png')*/
+  repeat;
 }
 
 
@@ -866,7 +864,7 @@ body {
 }
 
 .post-text {
-  background-color:  #6ee264;
+  background-color:  #c9c9c9;
   padding: 40px;
 }
 
@@ -881,7 +879,7 @@ body {
 
 #sidebar-container,
 .widget {
-  background: #ff7049;
+  background: #168624;
 }
 
 .widget {
@@ -890,7 +888,7 @@ body {
 
 /* RETURN TO TOP BUTTON - ALL SIZES */
 #return-to-top p{  
-  background: rgba(255, 112, 73, .8);
+  background: rgba(105,148,45, .8);
   border-radius: 5px 5px 0 0;
   margin: 0;
   padding: 5px;
@@ -1157,7 +1155,7 @@ p.author{
 }
 
 .meta-wrapper .meta-inner {
-  background: #ff7049;
+  background: #168624;
 }
 
 .avatar {
@@ -1245,7 +1243,7 @@ p.author{
 
 .post-navigation,
 .posts-navigation {
-  background: #ff7049;
+  background: #168624;
   color: black;
   font-family: 'Lobster';
   font-size: 22px;
@@ -1285,7 +1283,7 @@ p.author{
 }
 
 .comment {
-  border-top: 5px solid #6ee264;
+  border-top: 5px solid #c9c9c9;
   box-shadow: -5px 5px 5px #888;
   border-right: 1px solid #888; 
 }
@@ -1312,13 +1310,13 @@ p.author{
 
 /* Make author's comments stand out */
 .bypostauthor {
-  border-top: 5px solid #ff7049;
+  border-top: 5px solid #168624;
 /*  background-color: rgba(255,112,73,.5);*/
 }
 
 .commentlist li ul.children li.bypostauthor {
   /*  background-color: rgba(255,112,73,.5);*/
-  border-top: 5px solid #ff7049;
+  border-top: 5px solid #168624;
 }
 
 .edit-link a{
@@ -1327,7 +1325,7 @@ p.author{
 
 .comment-respond {
   padding: 10px;
-  border: 5px solid #6ee264;
+  border: 5px solid #c9c9c9;
   margin-top: 30px;
 }
 
@@ -1352,7 +1350,7 @@ p.author{
   padding: 20px;
   margin-bottom: 0;
   text-align: center;
-  color: #6EE264;
+  color: #168624;
   padding-bottom: 0;
 }
 
@@ -1406,7 +1404,7 @@ p.author{
 
 
 .simple_tweet_widget li:nth-child(odd) {
-  background-color: #6ee264;
+  background-color: #c9c9c9;
 }
 
 
@@ -1423,7 +1421,7 @@ p.author{
 
 
 .simple_tweet_widget li:nth-child(odd) {
-  background-color: #6ee264;
+  background-color: #c9c9c9;
 }
 
   
@@ -1437,7 +1435,7 @@ p.author{
 }
 
 .widget-area {
-  background-color: #ff7049;
+  background-color: #168624;
 }
 
 
@@ -1468,7 +1466,7 @@ p.author{
 }
 
 .error-page-content {
-  background: #6ee264;
+  background: #c9c9c9;
   color: black;
   padding: 50px;
   
@@ -2097,4 +2095,10 @@ li {
   border: 1px solid black;
 }
   
-/* Style post navigation links */
+.entry-title a {
+  color: #168624;
+}
+
+.entry-title a:hover {
+  color: #c9c9c9;
+}
