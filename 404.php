@@ -12,8 +12,8 @@ get_header(); ?>
 <div class="archive-heading">
   <h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'tracys_backpack' ); ?></h1>
 </div>
-  <div class="container" id="main-stuff">
-    <div class="row no-gutters" id="primary">
+  <div class="container main-stuff">
+    <div class="row no-gutters primary">
       <main id="content" class="col-sm-7 col-sm-offset-1" role="main">
         
         <div class="page-content error-page-content">

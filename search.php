@@ -12,8 +12,8 @@ get_header(); ?>
   <h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'tracys_backpack' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 </div>
 
-<div class="container" id="main-stuff">
-  <div class="row no-gutters" id="primary">
+<div class="container main-stuff">
+  <div class="row no-gutters primary">
     <main id="content" class="col-sm-7 col-sm-offset-1" role="main">
 
 

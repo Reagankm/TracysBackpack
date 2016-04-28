@@ -20,8 +20,8 @@ get_header(); ?>
       </div>
 
 
-      <div class="container" id="main-stuff">
-        <div class="row no-gutters" id="primary">
+      <div class="container main-stuff">
+        <div class="row no-gutters primary">
           <main id="content" class="col-sm-7 col-sm-offset-1" role="main">
       <?php
       /* Start the Loop */
@@ -32,7 +32,7 @@ get_header(); ?>
        * If you want to override this in a child theme, then include a file
        * called content-___.php (where ___ is the Post Format name) and that will be used instead.
        */
-      get_template_part( 'template-parts/content', get_post_format() );
+      get_template_part( 'template-parts/content-search', get_post_format() );
 
       endwhile;
 
@@ -40,7 +40,7 @@ get_header(); ?>
 
       else :
 
-      get_template_part( 'template-parts/content', 'none' );
+      get_template_part( 'template-parts/content-search', 'none' );
 
       endif; ?>
           </main>

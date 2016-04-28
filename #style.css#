@@ -703,7 +703,7 @@ li:nth-child(odd) a:hover {
 }
 
 .comment {
-  border-top: 5px solid #524639;
+  border-top: 5px solid #C8DE9B;
   box-shadow: -5px 5px 5px #8BA753;
   border-right: 1px solid #8BA753; 
 }
@@ -734,7 +734,7 @@ li:nth-child(odd) a:hover {
 
 .comment-respond {
   padding: 10px;
-  border: 5px solid #C8DE9B;
+  border: 8px solid #8BA753;
   margin-top: 30px;
 }
 
@@ -1346,34 +1346,28 @@ p.author{
 
 /*Add descriptive text and a line break */
 .post-navigation .nav-next::before {
-  content: "Next Post: \a";  
+  content: "Next Post: \a";
+  position: absolute;
+  left: 0;
+  /*white-space: pre;*/
 }
 
 .posts-navigation .nav-previous {
   display:inline;
 }
 
-.nav-previous a,
-.nav-next a {
-  margin-left: 150px;
-}
-
 /*Add descriptive text and a line break */
-.post-navigation .nav-previous::before,
-.post-navigation .nav-next::before {
-  position: absolute;
-  left: 0;
-  margin-left: 5px;
-}
-
 .post-navigation .nav-previous::before {
   content: "Previous Post: \a";
+  position: absolute;
+  left: 0;
+  /*white-space: pre;*/
 }
 
 .post-navigation,
 .posts-navigation {
   background: #524639;
-  color: #C8DE9B;
+  color: black;
   font-family: 'Cherry Swash', Courier New, Courier, serif;
   font-size: 22px;
   height: auto;

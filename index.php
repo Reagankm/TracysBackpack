@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-<div class="container" id="main-stuff">
-  <div class="row no-gutters" id="primary">
+<div class="container main-stuff">
+  <div class="row no-gutters primary">
     <main id="content" class="col-sm-7 col-sm-offset-1" role="main">
 
       <?php
