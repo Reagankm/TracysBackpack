@@ -487,11 +487,13 @@ textarea {
 }
 
 .entry-title a {
-  color: #524639;
+  color: #f1c349;
+  text-shadow: -1.5px 1.5px 0px black;
 }
 
 .entry-title a:hover {
-  color: #C8DE9B;
+  color: #8BA753;
+  text-decoration: none;
 }
 
 .site-header a {
@@ -874,8 +876,10 @@ object {
    --------------------------------------------------------------*/
 /*
    Colors:
-   light green: C8DE9B;
-   lotus: 524639 255,112,73;
+   light green: #C8DE9B;
+   dark green: #8BA753
+   yellow: #f1c349
+   dark brown: #8BA753
 
  */
 
@@ -1353,8 +1357,8 @@ p.author{
   display:inline;
 }
 
-.nav-previous a,
-.nav-next a {
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a {
   margin-left: 150px;
 }
 
