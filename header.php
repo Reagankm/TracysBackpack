@@ -27,7 +27,7 @@
 <link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
 
 <!-- Google Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Comfortaa|Kranky|Lobster' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Comfortaa|Kranky|Lobster|Libre+Baskerville|Roboto+Condensed|Roboto|Lora|Ubuntu|Noto+Serif|Righteous|Patua+One|Comfortaa|Fredoka+One|Life+Savers|Cherry+Swash|Stint+Ultra+Expanded|Smythe' rel='stylesheet' type='text/css'>
 
 <?php wp_head(); ?>
 <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->

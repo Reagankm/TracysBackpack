@@ -44,7 +44,11 @@
         <!-- Date box -->
 	<div class="meta-date">
           <div class="meta-inner" id="date-box">
-	    <span class="date-meta"><time><?php the_time('M j Y') ?> </time></span>
+	    <span class="date-meta"><time>
+              <a href="http://localhost/<?php the_time('Y'); ?>/<?php the_time('m'); ?>/<?php the_time('d'); ?>/" title="View archive for <?php the_time('F j, Y'); ?>">
+                <?php the_time('M j Y') ?> </time>
+              </a>
+            </span>
           </div>
           
           <!-- Date tooltip -->
@@ -57,7 +61,9 @@
         <!-- Author box -->
         <div class="meta-author">
           <div class="meta-inner">
-            <?php echo get_avatar(get_the_author_meta('ID'), 70); ?>
+            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
+              <?php echo get_avatar(get_the_author_meta('ID'), 70); ?>
+            </a>
           </div><!-- end author box -->
           <!-- author tooltip -->
 	  <div class="meta-tooltip">
@@ -71,8 +77,10 @@
         <div class="meta-comments">
           <div class="meta-inner">
             <span class="fa-stack fa-2x" id="comment-stack">
-              <i class="fa fa-comment-o fa-stack-2x"></i>
-              <strong class="fa-stack-1x comment-text"><?php comments_number(0, 1, '%'); ?></strong>
+              <a href="<?php comments_link(); ?>">
+                <i class="fa fa-comment-o fa-stack-2x"></i>
+                <strong class="fa-stack-1x comment-text"><?php comments_number(0, 1, '%'); ?></strong>
+              </a>
             </span>
           </div><!-- end box -->
           <!-- comment tooltip -->
@@ -90,7 +98,7 @@
               echo $text;
               endforeach; ?>
 	    
-	      <a href="<?php get_comments_link(); ?>">Add your own comment</a>
+	      <a href="<?php comments_link(); ?>">Add your own comment</a>
             </div>
           </div><!-- end tooltip -->
         </div><!-- end comment box -->

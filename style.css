@@ -115,7 +115,7 @@ dfn {
 
 h1 {
 	font-size: 2em;
-	margin: 0.67em 0;
+	
 }
 
 mark {
@@ -265,13 +265,24 @@ th {
 
 /*
    Fonts:
-   font-family: 'Comfortaa';
-   font-family: 'Kranky';
-   font-family: 'Lobster';
+   font-family: 'Ubuntu';
+   font-family: 'Righteous';
+   font-family: 'Cherry Swash';
+
+   font-family: 'Righteous';
+  font-family: 'Patua One';
+   font-family: 'Cherry Swash';
+
+font-family: 'Ubuntu';
+font-family: 'Fredoka One';
+font-family: 'Life Savers';
+font-family: 'Stint Ultra Expanded';
+
+
  */
 
 body {
-  font-family: 'Comfortaa';
+  font-family: 'Ubuntu';
 }
 
 h1,
@@ -282,16 +293,16 @@ h4 {
 }
 
 h1 {
-  font-family: 'Kranky';
+  font-family: 'Righteous';
   font-size: 60px;
 }
 
 h2 {
-  font-family: 'Kranky';
+  font-family: 'Righteous';
 }
 
 h3 {
-  font-family: 'Lobster';
+  font-family: 'Cherry Swash';
 }
 
 #hero {
@@ -315,7 +326,7 @@ h3 {
 }
 
 .post h2 {
-  color: #168624;
+  color: #524639;
   font-size: 40px;
 }
 
@@ -333,17 +344,17 @@ h3 {
 }
 
 .widget a:hover {
-  color: #000;
+  color: #fff;
 }
 
 #return-to-top p{  
-  color: white;
+  color: black;
   font-size: 16px;
   text-align: center;
 }
 
 #return-to-top p:hover {
-  color: black;
+  color: #524639;
   text-decoration: none;
 }
 
@@ -735,24 +746,66 @@ object {
    --------------------------------------------------------------*/
 /*
    Colors:
-   light green: c9c9c9;
-   lotus: 168624 255,112,73;
+   light green: C8DE9B;
+   lotus: 524639 255,112,73;
+ 
 
  */
 
 
 body {
+  /*background:
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/bamboo.gif') repeat;
   background:
-  /*url('/wp-content/themes/tracys_backpack/assets/img/bgs/bamboo.gif')*/
-  /*url('/wp-content/themes/tracys_backpack/assets/img/bgs/chess-dark.gif')
-     url('/wp-content/themes/tracys_backpack/assets/img/bgs/coaster.gif')
-     url('/wp-content/themes/tracys_backpack/assets/img/bgs/intrigue.gif')
-  url('/wp-content/themes/tracys_backpack/assets/img/bgs/relic-jungle.gif')/*
-     url('/wp-content/themes/tracys_backpack/assets/img/bgs/retro-leaves.gif')
-     url('/wp-content/themes/tracys_backpack/assets/img/bgs/trees.png')
-  url('/wp-content/themes/tracys_backpack/assets/img/green_bark.png')*/
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/chess-dark.gif') repeat;
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/coaster.gif') repeat;
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/intrigue.gif') repeat;
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/relic-jungle.gif') repeat;
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/retro-leaves.gif') repeat;
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/bgs/trees.png') repeat;
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/green_bark.png')
   repeat;
+   */
+  /*
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/newbg/baby_monkey.png') repeat;
+  
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/newbg/ferns.jpg') repeat;
+  
+  
+ 
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/newbg/green_trees.png') repeat;
+   
+ 
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/newbg/monkey_love.png') repeat;
+   */ 
+  
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/newbg/texture_stalks.jpg') repeat;
+  
 }
+
+.post-text img:nth-child(even) {
+  float: right;
+  clear: right;
+  margin: 20px 0px 20px 20px;
+}
+
+.post-text img:nth-child(odd){
+  float: left;
+  clear: left;
+  margin: 20px 20px 20px 0px;
+}
+
 
 
 /* HEADER */
@@ -839,7 +892,7 @@ body {
 }
 
 .post {
-  box-shadow: -5px 5px 5px #888;
+  box-shadow: -5px 5px 5px #8BA753;
   margin-bottom: 20px;
   margin-top: 20px;  
 }
@@ -864,12 +917,12 @@ body {
 }
 
 .post-text {
-  background-color:  #c9c9c9;
+  background-color:  #C8DE9B;
   padding: 40px;
 }
 
 #sidebar-container {
-  box-shadow: -5px 5px 5px #888;
+  box-shadow: -5px 5px 5px #8BA753;
   height: 100%;
   margin-top: 20px;
   padding: 5px;
@@ -879,7 +932,7 @@ body {
 
 #sidebar-container,
 .widget {
-  background: #168624;
+  background: #524639;
 }
 
 .widget {
@@ -888,7 +941,7 @@ body {
 
 /* RETURN TO TOP BUTTON - ALL SIZES */
 #return-to-top p{  
-  background: rgba(105,148,45, .8);
+  background: rgba(241,195,73, .8);
   border-radius: 5px 5px 0 0;
   margin: 0;
   padding: 5px;
@@ -1155,7 +1208,7 @@ p.author{
 }
 
 .meta-wrapper .meta-inner {
-  background: #168624;
+  background: #524639;
 }
 
 .avatar {
@@ -1180,7 +1233,7 @@ p.author{
 
 .meta-square {
   margin-bottom: 10px;
-  font-family: 'Comfortaa';
+  font-family: 'Ubuntu';
 }
 
 .date-meta {
@@ -1243,9 +1296,9 @@ p.author{
 
 .post-navigation,
 .posts-navigation {
-  background: #168624;
+  background: #524639;
   color: black;
-  font-family: 'Lobster';
+  font-family: 'Cherry Swash';
   font-size: 22px;
   height: auto;
   padding: 5px;
@@ -1283,9 +1336,9 @@ p.author{
 }
 
 .comment {
-  border-top: 5px solid #c9c9c9;
-  box-shadow: -5px 5px 5px #888;
-  border-right: 1px solid #888; 
+  border-top: 5px solid #C8DE9B;
+  box-shadow: -5px 5px 5px #8BA753;
+  border-right: 1px solid #8BA753; 
 }
 
 .children .comment {
@@ -1295,11 +1348,11 @@ p.author{
 }
 
 .post-navigation {
-  box-shadow: -5px 0 5px #888;
+  box-shadow: -5px 0 5px #8BA753;
 }
 
 .comments-area {
-  box-shadow: -5px 5px 5px #888;
+  box-shadow: -5px 5px 5px #8BA753;
 }
 
 .comment-list {
@@ -1310,13 +1363,13 @@ p.author{
 
 /* Make author's comments stand out */
 .bypostauthor {
-  border-top: 5px solid #168624;
+  border-top: 8px solid #f1c349;
 /*  background-color: rgba(255,112,73,.5);*/
 }
 
 .commentlist li ul.children li.bypostauthor {
   /*  background-color: rgba(255,112,73,.5);*/
-  border-top: 5px solid #168624;
+  border-top: 5px solid #524639;
 }
 
 .edit-link a{
@@ -1325,12 +1378,12 @@ p.author{
 
 .comment-respond {
   padding: 10px;
-  border: 5px solid #c9c9c9;
+  border: 5px solid #C8DE9B;
   margin-top: 30px;
 }
 
 .comment-reply-title {
-  font-family: 'Kranky';
+  font-family: 'Righteous';
   margin-top: 0;
 }
 
@@ -1350,7 +1403,7 @@ p.author{
   padding: 20px;
   margin-bottom: 0;
   text-align: center;
-  color: #168624;
+  color: #524639;
   padding-bottom: 0;
 }
 
@@ -1360,7 +1413,7 @@ p.author{
 
 .widget-area {
   margin-top: 20px;
-  box-shadow: -5px 5px 5px #888;
+  box-shadow: -5px 5px 5px #8BA753;
 }
 
 .widget-area .widget {
@@ -1404,13 +1457,13 @@ p.author{
 
 
 .simple_tweet_widget li:nth-child(odd) {
-  background-color: #c9c9c9;
+  background-color: #C8DE9B;
 }
 
 
 .simple_tweet_widget ul{
   font-size: 18px;
-  margin-top: 30px;
+  margin-top: 20px;
   
 }
 
@@ -1418,12 +1471,6 @@ p.author{
   margin-top: 5px;
   padding: 5px;
 }
-
-
-.simple_tweet_widget li:nth-child(odd) {
-  background-color: #c9c9c9;
-}
-
   
 
 .widget {
@@ -1435,14 +1482,14 @@ p.author{
 }
 
 .widget-area {
-  background-color: #168624;
+  background-color: #524639;
 }
 
 
 
 
 .widget-title {
-  color: black;
+  color: white;
 }
 
 .widget {
@@ -1466,7 +1513,7 @@ p.author{
 }
 
 .error-page-content {
-  background: #c9c9c9;
+  background: #C8DE9B;
   color: black;
   padding: 50px;
   
@@ -2091,14 +2138,39 @@ li:nth-child(odd) a {
   color: black;
 }
 
+li:nth-child(odd) a:hover {
+  color: black;
+}
+
 li {
   border: 1px solid black;
 }
   
 .entry-title a {
-  color: #168624;
+  color: #524639;
 }
 
 .entry-title a:hover {
-  color: #c9c9c9;
+  color: #C8DE9B;
+}
+
+.entry-title {
+  margin: 10px;
+}
+
+.meta-inner a {
+  color: white;
+}
+
+.meta-inner a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#twitter-name {
+  text-align: center;
+}
+
+#twitter-bio-col {
+  padding-left: 0px;
 }
