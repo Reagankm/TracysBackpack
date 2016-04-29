@@ -352,10 +352,12 @@ body {
      url('/wp-content/themes/tracys_backpack/assets/img/newbg/ferns.jpg') repeat;
      
      background:
-     url('/wp-content/themes/tracys_backpack/assets/img/newbg/green_trees.png') repeat; */  
+     url('/wp-content/themes/tracys_backpack/assets/img/newbg/green_trees.png') repeat; 
   
   background:
-  url('/wp-content/themes/tracys_backpack/assets/img/newbg/monkey_love.png') repeat;
+     url('/wp-content/themes/tracys_backpack/assets/img/newbg/monkey_love.png') repeat;*/  
+  background:
+  url('/wp-content/themes/tracys_backpack/assets/img/monkeylove.png') repeat;
   
   /*  background:
      url('/wp-content/themes/tracys_backpack/assets/img/newbg/texture_stalks.jpg') repeat;
@@ -632,6 +634,8 @@ li:nth-child(odd) a:hover {
 .widget-area {
   margin-top: 20px;
   box-shadow: -5px 5px 5px #8BA753;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .widget-area .widget {
