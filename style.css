@@ -890,13 +890,13 @@ object {
 
 
 
-.post-text img:nth-child(even) {
+.img-right {
   float: right;
   clear: right;
   margin: 20px 0px 20px 20px;
 }
 
-.post-text img:nth-child(odd){
+.img-left {
   float: left;
   clear: left;
   margin: 20px 20px 20px 0px;
