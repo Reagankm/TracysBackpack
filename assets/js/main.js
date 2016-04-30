@@ -1,17 +1,35 @@
+
+
 //Function to alternate post photos left and right
-$( document ).ready(function() {
+$( document ).ready( function() {
+  
   var imgCount = 0;
-  $('.post-text img').each(function(){
+
+  $('.post-text img').each( function() {
+    
     // remove our alignnone class for good measure
     $(this).removeClass('alignnone');
-    // If the count is even, alignright, else align left
-    if(imgCount%2 == 0){
-      $(this).addClass('img-right');
+    //If this has a caption, apply styling to the caption class instead
+    if( ! $(this).closest(".wp-caption").length) {
+    
+      // If the count is even, alignright, else align left
+      if( imgCount % 2 == 0 ){
+        $(this).addClass('img-right');
+      } else {
+        $(this).addClass('img-left');
+      }
     } else {
-      $(this).addClass('img-left');
+      if( imgCount % 2 == 0 ){
+        $(this).parent().addClass('img-right');
+      } else {
+        $(this).parent().addClass('img-left');
+      }
     }
+    
     imgCount++;
+    
   });
+  
 });
 
 $(function() {
