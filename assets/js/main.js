@@ -20,9 +20,9 @@ $( document ).ready( function() {
       }
     } else {
       if( imgCount % 2 == 0 ){
-        $(this).parent().addClass('img-right');
+        $(this).closest(".wp-caption").addClass('img-right');
       } else {
-        $(this).parent().addClass('img-left');
+        $(this).closest(".wp-caption").addClass('img-left');
       }
     }
     
